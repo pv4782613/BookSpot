@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+html
+{
+scroll-behavior:smooth;
+}
+body
+{
+margin:0;
+font-family:'Poppins',sans-serif;
+background-color:#f7f8fc;
+}
+
+
+/* navigation bar with buttons */
+.topnav
+{
+overflow:hidden;
+background-color:#2f1669;
+position:sticky;
+top:0;
+box-shadow:0px 8px 8px rgba(0,0,0,0.5);
+z-index:99;
+}
+.topnav a
+{
+float:left;
+padding:14px 16px;
+text-decoration:none;
+color:white;
+text-align:center;
+font-size:18px;
+}
+.topnav a.rightside
+{
+float:right
+}
+h1
+{
+padding-top:2%;
+margin:0;
+font-family: 'Viga',sans-serif;
+margin-bottom:20px;
+}
+.topnav a:hover
+{
+background-color:green;
+}
+
+
+/* Styling the background cards */
+.cards
+{
+background-color:#f7f8fc;
+height:600px;
+margin-top:200px;
+margin-bottom:0px;
+}
+#services,#seller,#buyer,#delivery,#Registration,#FAQs{
+	padding-top:50px;
+}
+
+
+/*Styling the categories of books*/
+.container1{
+display:grid;
+grid-template-columns:0.5fr 5.5fr;
+}
+.container1 .left_side{
+	box-shadow:2px 5px 5px grey;
+}
+.sidebar {
+ font-size: 18px;
+ width:210px;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #2f1669;
+  display: block;
+  border-bottom:2px solid grey;
+}
+
+.sidebar a p{
+margin:1px;
+font-weight:bold;
+padding:0 0 0 1rem;
+}
+.sidebar a p:hover{
+background-color:#2f1669;
+color:white;
+transition: 0.1s;
+}
+
+
+iframe{
+border:none;
+}
+

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column1 {
+  background:#2f1669;
+  float: left;
+  width: 25%;
+  height: 200px;
+}
+a,h4
+{
+ text-decoration:none;
+ font-weight:300;
+ font-family:'Poppins';
+ color:white;
+}
+footer a:hover{
+ color:red;
+}
+h4{
+	font-weight:bold;
+}	
+.underline
+{
+	border-bottom:2px solid red;
+	width:24%;	
+	line-height:2em;
+}
+ul
+{
+	list-style:none;
+}
+.fa
+{
+	margin-left:5%;
+	font-size:20px;
+	padding:2% 3%;
+}
+footer .fa:hover
+{
+	border-radius:50%;
+	background:white;
+	color:#2f1669;
+}
